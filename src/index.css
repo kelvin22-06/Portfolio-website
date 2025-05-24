@@ -28,11 +28,11 @@ html,
 body {
   font-family: var(--font-family);
   color: var(--color-text);
-  \
+  
   line-height: 1.5;
-  .5;
+  
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: {grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
