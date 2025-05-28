@@ -3,21 +3,25 @@ import "../styles/Portfolio.css"
 function Portfolio() {
   const projects = [
     {
-      image: "/CrownBank.png",
-      title: "CrownBank",
-      description: "Crown Bank is a bank web app that emphasizes good and flexible card payments.",
+      image: "/kdbank.png",
+      title: "KDBank",
+      description: "KD Bank is a bank web app that emphasizes good and flexible card payments.", 
+      demoLink: "https://kd-bank.vercel.app/"        
     },
      {
-       image: "/Avenir.png",
+       image: "/avenir.png",
        title: "Avenir AI",
       description: "Avenir is an AI tech startup that hopes to one day put themselves as a pioneer in AI development.",
+      demoLink: "https://avenir-ai-cx71.vercel.app/#about"
      },
      {
-     image: "/Relish.png",
-      title: "Relish",
-     description: "RELISH is a high end restaurant that has deep roots in asian cooking. They mesh the diversity of asian cuisine with more contemporary dishes to give a unique blend of the best of both worlds.",
+     image: "/nobkel.png",
+      title: "NobKel Restaurant",
+     description: "NobKel is a high end restaurant that has deep roots in asian cooking. They mesh the diversity of asian cuisine with more contemporary dishes to give a unique blend of the best of both worlds.",
+     demoLink: "https://nob-kel-u2ec.vercel.app/"
      },
   ]
+  
 
   return (
     <section id="portfolio" className="portfolio">
@@ -51,6 +55,9 @@ function Portfolio() {
               <div className="project-info">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
+                <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+            <button>Live Demo</button>
+            </a>
               </div>
             </div>
           ))}
