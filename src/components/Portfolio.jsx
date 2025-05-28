@@ -9,7 +9,7 @@ function Portfolio() {
       demoLink: "https://kd-bank.vercel.app/"        
     },
      {
-       image: "/avenir.png",
+       image: "/Avenir.png",
        title: "Avenir AI",
       description: "Avenir is an AI tech startup that hopes to one day put themselves as a pioneer in AI development.",
       demoLink: "https://avenir-ai-cx71.vercel.app/#about"
